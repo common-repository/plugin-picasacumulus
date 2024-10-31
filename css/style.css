@@ -1,0 +1,32 @@
+#pluginpicasacumulus-dialog-error,
+#pluginpicasacumulus-dialog-notification, 
+#pluginpicasacumulus-dialog-login,
+#pluginpicasacumulus-dialog-configure,  
+#pluginpicasacumulus-thumbnail {
+	display:none;
+}
+#pluginpicasacumulus-error-message,
+#pluginpicasacumulus-notification-message {
+margin-right: 0.4em;
+}
+.required {
+	color: #B22222;
+	font-weight: bold;
+}
+#pluginpicasacumulus-list tr {
+	cursor: pointer;	
+}
+#pluginpicasacumulus-thumbnail {
+	position: absolute;
+	padding: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border: 1px solid #DFDFDF;
+	background: #fff;
+}
+#pluginpicasacumulus-thumbnail p {
+	margin: 0;
+	text-align: center;
+}
